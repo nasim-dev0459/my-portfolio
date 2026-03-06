@@ -63,10 +63,30 @@ nav ul li a::after {
     left: 0;
     bottom: -6px;
     transition: 0.5s;
+
+
 }
 
 nav ul li a:hover::after {
     width: 100%;
+}
+
+/* লোগো টেক্সট স্টাইল */
+.logo-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    background: linear-gradient(45deg, #ff004f, #ffb800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.logo-text:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgba(255, 0, 79, 0.5));
 }
 
 /* Header Text */
@@ -455,4 +475,14 @@ nav .fa-solid {
     .copyright {
         font-size: 14px;
     }
+}
+
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px; /* আপনার পছন্দমতো বড় বা ছোট করতে পারেন */
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    mix-blend-mode: overlay; /* এটি কভার ফটোর সাথে লেখাকে মিশিয়ে দিবে */
+    opacity: 0.9;
 }
