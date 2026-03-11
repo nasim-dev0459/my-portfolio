@@ -6,14 +6,15 @@
     <title>Personal Portfolio - Md Nasim Howladar</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/user.png">
 </head>
 <body>
 
     <div id="header">
         <div class="container">
             <nav>
-<a href="#" class="logo-text">Nasim</a>                
+                <a href="#" class="logo-text">Nasim</a>                
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -25,7 +26,7 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Computer Science Undergraduate</p>
+                <p></p>
                 <h1>Hi, I'm <span>Md Nasim Howladar</span><br>Software Engineer </h1>
             </div>
         </div>
@@ -35,7 +36,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png">
+                    <img src="images/user.png" alt="User Image">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
@@ -48,86 +49,121 @@
                     </div>
                     
                     <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Programming</span><br>C, C++, Python, Java, HTML, CSS</li>
-                            <li><span>Core Domains</span><br>Data Structures, Algorithms, AI, Machine Learning</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2023 - Present</span><br>B.Sc. (Engg.) in CSE at Atish Dipankar University of Science and technology [ADUST]</li>
-                            <li><span>2021</span><br>H.S.C from Srijanee Bidyaniketan (GPA: 4.75)</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="tab-contents" id="projects">
-                        <ul>
-                            <li><span>Potato Disease Classification</span><br>Developed a CNN-based model for leaf disease detection.</li>
-                            <li><span>Weather Prediction System</span><br>Built a model utilizing historical weather datasets.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+    <div class="skill-item">
+        <i class="fa-solid fa-code"></i>
+        <div>
+            <span>Programming</span>
+            <p>C, C++, Python, Java, HTML, CSS</p>
         </div>
+    </div>
+    <div class="skill-item">
+        <i class="fa-solid fa-microchip"></i>
+        <div>
+            <span>Core Domains</span>
+            <p>Data Structures, Algorithms, AI, Machine Learning</p>
+        </div>
+    </div>
+    <div class="skill-item">
+        <i class="fa-solid fa-layer-group"></i>
+        <div>
+            <span>Software Development</span>
+            <p>FastAPI, TensorFlow, SQLite, Git & GitHub</p>
+        </div>
+    </div>
+</div>
+                    
+                   <div class="tab-contents" id="education">
+    <div class="education-item">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <div>
+            <span>2023 - Present</span>
+            <p><strong>B.Sc. (Engg.) in CSE</strong><br>Atish Dipankar University of Science and Technology (ADUST)</p>
+        </div>
+    </div>
+    <div class="education-item">
+        <i class="fa-solid fa-school"></i>
+        <div>
+            <span>2021</span>
+            <p><strong>H.S.C (Science)</strong><br>Srijanee Bidyaniketan (GPA: 4.75)</p>
+        </div>
+    </div>
+</div>
+
+<div class="tab-contents" id="projects">
+    <div class="project-item">
+        <i class="fa-solid fa-seedling"></i>
+        <div>
+            <span>Machine Learning</span>
+            <p><strong>Potato Disease Classification</strong><br>Developed a CNN-based model for leaf disease detection.</p>
+        </div>
+    </div>
+    <div class="project-item">
+        <i class="fa-solid fa-cloud-sun"></i>
+        <div>
+            <span>Data Science</span>
+            <p><strong>Pro-Bill-Master</strong><br>A professional desktop billing application built with Python and SQLite.</p>
+        </div>
+    </div>
+</div>
+                </div> 
+            </div> 
+        </div> 
     </div>
 
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>Building responsive and modern websites using HTML, CSS, Python, and Java.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>Machine Learning</h2>
-                    <p>Developing intelligent systems like Potato Disease Classification and Weather Prediction models.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-app-store-ios"></i>
-                    <h2>Software Solutions</h2>
-                    <p>Solving complex problems using Data Structures, Algorithms, and Deep Learning expertise.</p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Building responsive and modern websites using HTML, CSS, Python, and Java.</p>
+                <a href="#contact">Learn more</a> </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Machine Learning</h2>
+                <p>Developing intelligent systems like Potato Disease Classification and Prediction models.</p>
+                <a href="#contact">Learn more</a> </div>
+            <div>
+                <i class="fa-solid fa-app-store-ios"></i>
+                <h2>Software Solutions</h2>
+                <p>Solving complex problems using Data Structures, Algorithms, and Deep Learning expertise.</p>
+                <a href="#contact">Learn more</a> </div>
         </div>
     </div>
+</div>
 
     <div id="portfolio">
         <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">My Project</h1>
+            
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png">
+                    <img src="images/work-1.png" alt="Potato Disease project">
                     <div class="layer">
-                        <h3>Potato Disease Classification</h3>
-                        <p>A Deep Learning model using CNN to classify potato leaf diseases.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Blank i will be add as soon as </h3>
+                        <p>An AI-powered system built with FastAPI, TensorFlow, and React.js to detect plant diseases.</p>
+                        <a href="https://github.com/nasim-dev0459" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-2.png">
+                    <img src="images/bill.png" alt="Billing system project">
                     <div class="layer">
-                        <h3>Weather Prediction System</h3>
-                        <p>A Machine Learning model built with historical weather datasets.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Pro-Bill-Master</h3>
+                        <p>A professional desktop billing application built with Python and SQLite.</p>
+                        <a href="https://github.com/nasim-dev0459/Pro-Bill-Master" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-3.png">
+                    <img src="images/potato.png" alt="Weather prediction project">
                     <div class="layer">
-                        <h3>Web Development Projects</h3>
-                        <p>Creating responsive and user-friendly websites using modern technologies.</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Potato-Disease-Classification</h3>
+                        <p>potato leaf disease classification system built with FastAPI, TensorFlow, and React.js.</p>
+                        <a href="https://github.com/nasim-dev0459/Potato-Disease-Classification" target="_blank"><i class="fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See more</a>
+            <a href="https://github.com/nasim-dev0459" target="_blank" class="btn">See more on GitHub</a>
         </div>
     </div>
 
@@ -147,28 +183,30 @@
                         <a href="https://wa.me/8801315475145" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                     
-<a href="cv.pdf" download class="btn btn2">Download CV</a>               
-</div>
+                    <a href="cv.pdf" download class="btn btn2">Download CV</a>               
+                </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-    <button type="submit" class="btn btn2">Submit</button>
-</form>
-                    <span id="msg" style="color: #61b752; display: block; margin-top: 10px;"></span>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
                 </div>
             </div>
         </div>
         <div class="copyright">
-            <p>Md Nasim Howladar. Made with <i class="fa-solid fa-heart"></i></p>
+            <p> Nasim Made with <i class="fa-solid fa-heart"></i></p>
         </div>
     </div>
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <script>
-        // ট্যাব পরিবর্তনের স্ক্রিপ্ট
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
+        
         function opentab(tabname){
             for(tablink of tablinks){ tablink.classList.remove("active-link"); }
             for(tabcontent of tabcontents){ tabcontent.classList.remove("active-tab"); }
@@ -176,30 +214,27 @@
             document.getElementById(tabname).classList.add("active-tab");
         }
 
-        // মোবাইল মেনু স্ক্রিপ্ট
         var sidemeu = document.getElementById("sidemenu");
         function openmenu() { sidemeu.style.right = "0"; }
         function closemenu() { sidemeu.style.right = "-200px"; }
 
-        // গুগল শিট কানেকশন স্ক্রিপ্ট
         const scriptURL = 'https://script.google.com/macros/s/AKfycbwEPeJFcjTLmlOhkX7oEEeAykP8F_a5h4BfsyR-dXEKAwl4CGJxNKOrELdqpOxlr6iQzg/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
 
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          msg.innerHTML = "Sending..." // সাবমিট করার সাথে সাথে দেখাবে
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            e.preventDefault()
+            msg.innerHTML = "Sending..."
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
-                msg.innerHTML = "Message sent successfully!" // সফল হলে এই মেসেজ আসবে
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                }, 5000)
-                form.reset() // ফর্ম খালি হয়ে যাবে
+                swal("Sent!", "Your message reached Nasim successfully!", "success"); 
+                msg.innerHTML = "";
+                form.reset();
             })
             .catch(error => {
-                msg.innerHTML = "Error! Please try again."
-                console.error('Error!', error.message)
+                swal("Error!", "Something went wrong. Please try again!", "error");
+                msg.innerHTML = "";
+                console.error('Error!', error.message);
             })
         })
     </script>
