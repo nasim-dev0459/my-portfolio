@@ -16,4 +16,4 @@ HTML5 & CSS3
 
 Google Apps Script
 
-Netlify (for hosting)
+Github (for hosting)
